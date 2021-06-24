@@ -11,8 +11,8 @@ public class OperadoresLogicos {
 		Random aleatorio = new Random();
 		
 		//asignando el valor aleatorio a la variable
-		double i = aleatorio.nextInt() % 100;
-		int j = aleatorio.nextInt() % 100;
+		double i = Math.random()*10;
+		double j = Math.random()*10;
 	
 		System.out.println("i=  " + i);
 		System.out.println("j=  " + j);
