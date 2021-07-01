@@ -1,5 +1,8 @@
 package arrays;
 
+//capitulo de arrays de joyanes estructura de datos en java 
+//capitulo de arrays de deitel como progamar en java
+
 public class Matrices {
 	public static void main(String[] args) {
 		//declaracion de una matriz bidimensional
