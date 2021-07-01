@@ -9,9 +9,6 @@ public class FiguraCompleja {
 	
 		figuraSuperior();
 		figura();
-		
-		
-
 	}
 	//figura superior
 	public static void figura() {
