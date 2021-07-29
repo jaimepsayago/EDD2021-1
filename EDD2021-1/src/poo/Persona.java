@@ -20,4 +20,5 @@ public class Persona {
 		return this.nombreCompleto();
 	}
 
+
 }
