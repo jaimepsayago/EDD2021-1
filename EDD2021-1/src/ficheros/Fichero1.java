@@ -32,15 +32,20 @@ public class Fichero1 {
 		File fichero = null;
 		FileWriter writer = null;
 		PrintWriter pw = null;
-		//String frase = "esto es una archivo generado y escrito desde java";
+		String frase = "esto es una archivo generado y escrito desde java";
 		try {
-			 fichero = new File("guardarArchivo.txt");
-			writer = new FileWriter(fichero);
-			pw = new PrintWriter(writer);
+			 //fichero = new File("guardarArchivo.txt");
+			writer = new FileWriter("guardarArchivo.txt");
+			//pw = new PrintWriter(writer);
 			
 			for (int i = 0; i < 10; i++) {
-				pw.println("linea " + i);
+				//pw.println("linea " + i);
+				writer.write("linea \n" + i);
+				
+				
 			}
+			writer.write(frase);
+			writer.close();
 			System.out.println("archivo guardado");
 			
 		} catch (Exception e) {

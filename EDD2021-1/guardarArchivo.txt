@@ -1,0 +1,11 @@
+linea 
+0linea 
+1linea 
+2linea 
+3linea 
+4linea 
+5linea 
+6linea 
+7linea 
+8linea 
+9esto es una archivo generado y escrito desde java
